@@ -1,0 +1,98 @@
+/* index.css */
+
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  div.logo {
+    font-family: david, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+  }
+  
+
+  div{
+    margin-top: 0.3cm; /* רווח של 1 סנטימטר מעל האלמנט */
+    margin-bottom: 0.3cm;
+  }
+  /* Set up a basic font and background color */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333; 
+
+  }
+  
+  /* Ensure the root div takes full height */
+  #root {
+    min-height: 100vh;
+  }
+  
+  /* Basic container styling */
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header styling */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+  }
+  
+  /* Basic link styling */
+/* עיצוב קישורים */
+a {
+  color: #2b53c2;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease;
+  margin-left:2;
+  background-color: #7856c1;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  outline: none;
+}
+
+a:hover {
+  color: #98c8d7;
+  transform: translateX(5px);
+}
+
+/* עיצוב כפתורים */
+button {
+  background-color: #7856c1;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  outline: none;
+}
+
+button:hover {
+  background-color: #493b67;
+  transform: scale(1.1);
+}
+
+button:focus {
+  box-shadow: 0 0 0 3px rgba(255, 87, 34, 0.5);
+}
